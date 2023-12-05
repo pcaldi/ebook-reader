@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, Linking } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 import { styles } from './styles';
-import api from '../../service/api';
+import api from '@service/api';
 
 interface BooksProps {
   id: string;
