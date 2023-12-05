@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
     borderColor: THEME.COLORS.GREY_100,
     padding: 16,
     borderRadius: 8,
+    alignItems: 'center',
   },
   title: {
     fontSize: 18,
@@ -25,18 +26,28 @@ export const styles = StyleSheet.create({
   },
   author: {
     fontSize: 16,
-    color: THEME.COLORS.GREY_800,
+    color: THEME.COLORS.GREY_300,
   },
   image: {
-    width: 16,
-    height: 16,
+    width: 100,
+    height: 100,
+    borderRadius: 5,
     marginBottom: 16,
     borderWidth: 1,
     borderColor: THEME.COLORS.GREY_100,
     padding: 16,
-    borderRadius: 8,
 
-  }
+  },
+  link: {
+    fontSize: 16,
+    color: THEME.COLORS.GREY_300,
+    textDecorationLine: 'underline',
+    marginTop: 4,
+  },
+  favoriteIcon: {
+    fontSize: 24,
+    color: THEME.COLORS.RED
+  },
 });
 
 
