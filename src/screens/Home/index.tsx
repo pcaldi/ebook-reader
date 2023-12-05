@@ -1,6 +1,5 @@
 
-import { Books } from "../../components/Books";
-import { Header } from "../../components/Header";
+import { Books } from '../../components/Books';
 
 export function Home() {
   return (
