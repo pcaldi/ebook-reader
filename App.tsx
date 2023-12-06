@@ -1,6 +1,8 @@
 import { StatusBar } from "expo-status-bar";
+
 import { Loading } from "@components/Loading";
 import { Routes } from "@routes/index";
+
 import {
   useFonts,
   Roboto_400Regular,
