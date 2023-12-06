@@ -2,6 +2,7 @@ export const THEME = {
   COLORS: {
     WHITE: "#FFFFFF",
 
+    GREY_50: "#F8F8F8",
     GREY_100: "#E1E1E6",
     GREY_200: "#8D8D99",
     GREY_300: "#444",
