@@ -8,7 +8,11 @@ export const THEME = {
     GREY_300: "#444",
     GREY_400: "#9999",
 
-    RED: '#E83F5B',
+    RED: '#f0718c',
+    BLUE: '#1b9dff',
+    GREEN: '#94d13d',
+    PURPLE: '#6f58e9',
+    GREEN_LIGHT: '#2ddac1'
 
   },
   FONTS: {
