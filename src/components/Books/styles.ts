@@ -7,12 +7,8 @@ export const styles = StyleSheet.create({
     backgroundColor: THEME.COLORS.GREY_50,
     alignItems: 'center',
     justifyContent: 'center',
-    margin: 32,
-  },
-  heading: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 16,
+    borderRadius: 16,
+    margin: 18,
   },
 
 });

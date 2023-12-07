@@ -4,10 +4,11 @@ import { THEME } from "@styles/theme";
 export const styles = StyleSheet.create({
 
   itemContainer: {
-    borderWidth: 1.5,
-    borderColor: THEME.COLORS.GREY_100,
-    borderRadius: 8,
-    padding: 16,
+    width: "100%",
+    height: 250,
+    borderColor: THEME.COLORS.GREY_400,
+    borderBottomWidth: 1,
+    padding: 24,
     marginBottom: 16,
     alignItems: 'center',
     justifyContent: 'center',
@@ -22,13 +23,14 @@ export const styles = StyleSheet.create({
 
   title: {
     fontSize: 16,
-    color: THEME.COLORS.GREY_300,
-    fontWeight: 'bold',
+    color: THEME.COLORS.BLUE,
+    fontWeight: '600',
   },
 
   author: {
     fontSize: 14,
     color: THEME.COLORS.GREY_300,
+    fontWeight: '400',
 
   },
 
