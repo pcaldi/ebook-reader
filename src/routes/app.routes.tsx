@@ -1,8 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { Home } from '../screens/Home/';
-import { Favorite } from '../screens/Favorite';
-
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -12,10 +10,6 @@ export function AppRoutes() {
       <Screen
         name="home"
         component={Home}
-      />
-      <Screen
-        name="favorite"
-        component={Favorite}
       />
 
     </Navigator>
