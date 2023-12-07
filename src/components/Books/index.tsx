@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-import { View, Text, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 
 import { useBooks } from '@hooks/useBooks';
 import { BookItem } from '@components/BooksItem';
@@ -23,7 +23,6 @@ export function Books() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Books:</Text>
       <FlatList
         data={books}
         keyExtractor={(item) => item.id}
