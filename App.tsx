@@ -24,7 +24,7 @@ export default function App() {
         translucent
         style={"dark"}
       />
-      <Routes />
+      {fontsLoaded ? <Routes /> : <Loading />}
 
     </>
   );
