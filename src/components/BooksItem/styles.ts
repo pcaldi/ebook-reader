@@ -4,21 +4,33 @@ import { THEME } from "@styles/theme";
 export const styles = StyleSheet.create({
 
   itemContainer: {
-    width: "100%",
-    height: 250,
-    borderColor: THEME.COLORS.GREY_400,
-    borderBottomWidth: 1,
-    padding: 24,
-    marginBottom: 16,
+    width: 250,
+    height: 290,
+    borderRadius: 8,
     alignItems: 'center',
     justifyContent: 'center',
+    margin: 8,
+  },
+
+  bookCard: {
+    width: '100%',
+    height: 300,
+
+    backgroundColor: THEME.COLORS.GREY_50,
+    borderRadius: 8,
+
+    alignItems: 'center',
+    justifyContent: 'center',
+
+
+    padding: 12,
     position: 'relative'
   },
 
 
   textView: {
-    marginTop: 8,
     alignItems: 'center',
+    justifyContent: 'center',
   },
 
   title: {
@@ -34,20 +46,25 @@ export const styles = StyleSheet.create({
 
   },
 
+  imageView: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
   image: {
     width: 100,
     height: 150,
-    marginTop: 12,
   },
 
   favoriteIconContainer: {
     position: 'absolute',
-    top: -210,
-    right: -150,
+    top: -235,
+    right: -120,
     borderRadius: 99,
     borderWidth: 1,
-    borderColor: THEME.COLORS.GREY_400,
+    borderColor: THEME.COLORS.PURPLE,
     padding: 6,
+    margin: 8
   },
 
   favoriteIcon: {

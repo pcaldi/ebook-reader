@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 export function Home() {
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: THEME.COLORS.BLUE, padding: 24 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: THEME.COLORS.BLUE, padding: 24, }}>
       <Header />
       <Books />
     </SafeAreaView>

@@ -19,25 +19,28 @@ export function BookItem({ item, isFavorite, onToggleFavorite }: BookItemProps) 
 
   return (
     <View style={styles.itemContainer}>
+      <View style={styles.bookCard}>
+        <TouchableOpacity
+          style={{ opacity: 0.7 }}
+          onPress={openLink}
+        >
+          <View style={styles.imageView}>
 
-      <TouchableOpacity
-        style={{ opacity: 0.7 }}
-        onPress={openLink}
-      >
-        <Image source={{ uri: item.cover_url }} style={styles.image} />
-      </TouchableOpacity>
+            <Image source={{ uri: item.cover_url }} style={styles.image} />
+          </View>
+        </TouchableOpacity>
 
-      <View style={styles.textView}>
-        <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.author}>{item.author}</Text>
-      </View>
-
-      <TouchableOpacity onPress={() => onToggleFavorite(item.id)}>
-        <View style={styles.favoriteIconContainer}>
-          <FontAwesome name={isFavorite ? 'heart' : 'heart-o'} style={styles.favoriteIcon} />
+        <View style={styles.textView}>
+          <Text style={styles.title}>{item.title}</Text>
+          <Text style={styles.author}>{item.author}</Text>
         </View>
-      </TouchableOpacity>
 
+        <TouchableOpacity onPress={() => onToggleFavorite(item.id)}>
+          <View style={styles.favoriteIconContainer}>
+            <FontAwesome name={isFavorite ? 'heart' : 'heart-o'} style={styles.favoriteIcon} />
+          </View>
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }
